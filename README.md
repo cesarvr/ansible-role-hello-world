@@ -69,6 +69,9 @@ ok: [localhost] => {
 ```
 
 
+For more information: 
+  - How to [reuse roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html). 
+  - How to [create roles](https://galaxy.ansible.com/docs/contributing/creating_role.html). 
 
 
 
