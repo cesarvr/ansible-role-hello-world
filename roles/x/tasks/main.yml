@@ -1,0 +1,6 @@
+---
+- name: Print a message
+  vars:
+    message: Boom! 
+  ansible.builtin.debug:
+    msg: "Hello From X: {{ message }}" 

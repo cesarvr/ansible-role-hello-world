@@ -1,0 +1,18 @@
+---
+- hosts: localhost
+  #roles:
+  #  - role: p 
+  #    message: Buu!
+  #  - role: x 
+  #    message: Buu!
+  tasks:
+    - name: Printing From P
+      include_role: 
+        name: p 
+      vars:
+        message: Calling role P From A    
+    - name: Printing From X
+      include_role: 
+        name: x 
+      vars:
+        message: Calling role X From A    
